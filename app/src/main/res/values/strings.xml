@@ -1,3 +1,61 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="title_activity_botna_v">BotnaV</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_text">BMI Calculator</string>
+    <string name="weight_counter_txt">50</string>
+    <string name="age_counter_txt">25</string>
+    <string name="weight_title_txt">Weight (kg)</string>
+    <string name="age_title_txt">Age</string>
+    <string name="height_title_txt">5 feet 4 inches </string>
+    <string name="button_text">Calculate</string>
+    <string-array name="button2_text">Calculate Again</string-array>
+    <string name="ft">ft</string>
+    <string name="in">in</string>
+    <string name="height">Height</string>
+    <string name="YourBmiText">Your BMI</string>
+    <string name="bmiValue">20.5</string>
+    <string name="bmiTips">You are underweight So you may need to put on some weight.</string>
+    <string name="title">Step Counter</string>
+    <string name="record">Day record: %1$d steps</string>
+    <string name="steps_label">Steps taken:</string>
+    <string name="steps">%1$d</string>
+    <string name="time">Time: %1$s</string>
+    <string name="speed">Average speed: %1$d steps/min</string>
+    <string name="distance">Distance: %1$s m</string>
+    <string name="orientation">Orientation: %1$s</string>
+    <string name="settings">Settings</string>
+    <string name="start">START!</string>
+    <string name="pause">Pause</string>
+    <string name="reset">Reset</string>
+    <string name="achieved">Record Achieved!</string>
+    <string name="button_text250">+</string>
+    <string name="button_text500"></string>
+    <string name="set_goal">menu</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="set_custom_goal">Set custom goal</string>
+    <string name="reset_progress">Reset current progress</string>
+    <string name="about">⦿This app was created to track daily water intake.\n⦿After drinking, press the button with a number on it multiple times or select custom amount and press it for example (250 adds 250ml, 500 adds 500ml).\n⦿Progress resets everyday.\n⦿This app has a reminder, that reminds you to drink every hour.</string>
+    <string name="hint">Enter custom goal in ml</string>
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string-array name="tips_array">
+        <item>You are severely underweight. It is a sign that you are not eating enough or you may be ill.</item>
+        <item>You are underweight So you may need to put on some weight.Take some Healthy Fruits and Vegies to live a healthy life style. </item>
+        <item>That\'s Great !!!You are at a healthy weight for your height. You lower your risk of developing serious health problems.</item>
+        <item>You are slightly overweight. You may be advised to lose some weight for health reasons.Take healthy diet an Do some workouts.Daily Morning walk will keep you fit and Healthy.  </item>
+        <item>You are heavily overweight.Your health may be at risk if you do not lose weight.But Don\'t Worry Follow our Portion Control and Do some Workouts to live a Healthy Lifestyle </item>
+    </string-array>
 </resources>

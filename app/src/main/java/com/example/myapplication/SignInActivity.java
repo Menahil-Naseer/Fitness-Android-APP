@@ -3,18 +3,16 @@ package com.example.myapplication;
 import static androidx.core.content.ContextCompat.startActivity;
 
 import android.content.Intent;
-
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
-import android.util.Patterns;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
@@ -73,12 +71,17 @@ public class SignInActivity extends AppCompatActivity {
                                         FirebaseUser user = mAuth.getCurrentUser();
 
                                         if (user != null) {
+                                            if (user.isEmailVerified()) {
 
-                                                Intent HomeActivity = new Intent(SignInActivity.this, MainActivity3.class);
+
+                                                System.out.println("Email Verified : " + user.isEmailVerified());
+                                                Intent HomeActivity = new Intent(SignInActivity.this,dashActivity.class);
                                                 setResult(RESULT_OK, null);
                                                 startActivity(HomeActivity);
                                                 SignInActivity.this.finish();
 
+
+                                            }
                                         }
 
                                     } else {
@@ -98,11 +101,21 @@ public class SignInActivity extends AppCompatActivity {
 
                 }
 
-
             }
-        });
+            });
 
 
+        }
+    public void forgetpassword(View view) {
 
+        Intent in = new Intent(SignInActivity.this, ForgotPasswordActivity.class);
+        startActivity(in);
+    }
+
+    public void signupp(View view) {
+        Intent in = new Intent(SignInActivity.this, MainActivity.class);
+        startActivity(in);
     }
 }
+
+

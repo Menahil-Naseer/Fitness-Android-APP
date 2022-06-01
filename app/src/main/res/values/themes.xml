@@ -1,10 +1,27 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
     <style name="Theme.MyApplication" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/purple_500</item>
         <item name="colorPrimaryDark">@color/purple_700</item>
         <item name="colorAccent">@color/teal_200</item>
         <!-- Customize your theme here. -->
+    </style>
+
+    <style name="NumberPickerTheme" parent="Theme.AppCompat.Light">
+        <item name="android:textSize">24sp</item>
+
+    </style>
+    <style name="NumberPickerThemes" parent="Theme.AppCompat.Light">
+        <item name="colorAccent">@color/colorButton</item>
+        <item name="colorControlNormal">@color/colorButton</item>
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:fontFamily"></item>
+        <item name="android:textSize">30sp</item>
+    </style>
+
+    <style name="ItemTheme" parent="Theme.AppCompat.Light">
+        <item name="android:fontFamily"></item>
+        <item name="android:textSize">15sp</item>
     </style>
 </resources>

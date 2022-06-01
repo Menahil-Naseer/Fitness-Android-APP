@@ -3,10 +3,36 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Azka Naseer/AndroidStudioProjects/MyApplication8/app/src/main/res/drawable/button_design.xml" value="0.2265" />
+        <entry key="..\:/Users/Azka Naseer/AndroidStudioProjects/MyApplication8/app/src/main/res/drawable/button_round.xml" value="0.2265" />
+        <entry key="..\:/Users/Azka Naseer/AndroidStudioProjects/MyApplication8/app/src/main/res/drawable/button_shape_round.xml" value="0.2265" />
+        <entry key="..\:/Users/Azka Naseer/AndroidStudioProjects/MyApplication8/app/src/main/res/drawable/drop.xml" value="0.2265" />
+        <entry key="..\:/Users/Azka Naseer/AndroidStudioProjects/MyApplication8/app/src/main/res/drawable/ic_menu_black_24dp.xml" value="0.2265" />
+        <entry key="..\:/Users/Azka Naseer/AndroidStudioProjects/MyApplication8/app/src/main/res/drawable/ic_settings_black_24dp.xml" value="0.2265" />
+        <entry key="..\:/Users/Azka Naseer/AndroidStudioProjects/MyApplication8/app/src/main/res/layout/activity_bmi.xml" value="0.1" />
+        <entry key="..\:/Users/Azka Naseer/AndroidStudioProjects/MyApplication8/app/src/main/res/layout/activity_botna_v.xml" value="0.20244565217391305" />
+        <entry key="..\:/Users/Azka Naseer/AndroidStudioProjects/MyApplication8/app/src/main/res/layout/activity_calculate.xml" value="0.20244565217391305" />
+        <entry key="..\:/Users/Azka Naseer/AndroidStudioProjects/MyApplication8/app/src/main/res/layout/activity_dash.xml" value="0.264" />
+        <entry key="..\:/Users/Azka Naseer/AndroidStudioProjects/MyApplication8/app/src/main/res/layout/activity_excercise.xml" value="0.20244565217391305" />
+        <entry key="..\:/Users/Azka Naseer/AndroidStudioProjects/MyApplication8/app/src/main/res/layout/activity_forgot_password.xml" value="0.20244565217391305" />
         <entry key="..\:/Users/Azka Naseer/AndroidStudioProjects/MyApplication8/app/src/main/res/layout/activity_main.xml" value="0.20244565217391305" />
         <entry key="..\:/Users/Azka Naseer/AndroidStudioProjects/MyApplication8/app/src/main/res/layout/activity_main2.xml" value="0.20244565217391305" />
         <entry key="..\:/Users/Azka Naseer/AndroidStudioProjects/MyApplication8/app/src/main/res/layout/activity_main3.xml" value="0.20244565217391305" />
-        <entry key="..\:/Users/Azka Naseer/AndroidStudioProjects/MyApplication8/app/src/main/res/layout/activity_sign_in.xml" value="0.20244565217391305" />
+        <entry key="..\:/Users/Azka Naseer/AndroidStudioProjects/MyApplication8/app/src/main/res/layout/activity_nutrient.xml" value="0.264" />
+        <entry key="..\:/Users/Azka Naseer/AndroidStudioProjects/MyApplication8/app/src/main/res/layout/activity_pedometer.xml" value="0.20244565217391305" />
+        <entry key="..\:/Users/Azka Naseer/AndroidStudioProjects/MyApplication8/app/src/main/res/layout/activity_sign_in.xml" value="0.2" />
+        <entry key="..\:/Users/Azka Naseer/AndroidStudioProjects/MyApplication8/app/src/main/res/layout/activity_splash.xml" value="0.20244565217391305" />
+        <entry key="..\:/Users/Azka Naseer/AndroidStudioProjects/MyApplication8/app/src/main/res/layout/activity_watertrack.xml" value="0.2" />
+        <entry key="..\:/Users/Azka Naseer/AndroidStudioProjects/MyApplication8/app/src/main/res/layout/fragment_dashboard.xml" value="0.20244565217391305" />
+        <entry key="..\:/Users/Azka Naseer/AndroidStudioProjects/MyApplication8/app/src/main/res/layout/fragment_home.xml" value="0.20244565217391305" />
+        <entry key="..\:/Users/Azka Naseer/AndroidStudioProjects/MyApplication8/app/src/main/res/layout/fragment_notifications.xml" value="0.20244565217391305" />
+        <entry key="..\:/Users/Azka Naseer/AndroidStudioProjects/MyApplication8/app/src/main/res/layout/layout_dialog.xml" value="0.20244565217391305" />
+        <entry key="..\:/Users/Azka Naseer/AndroidStudioProjects/MyApplication8/app/src/main/res/layout/layout_info.xml" value="0.20244565217391305" />
+        <entry key="..\:/Users/Azka Naseer/AndroidStudioProjects/MyApplication8/app/src/main/res/layout/layout_numberpicker.xml" value="0.20244565217391305" />
+        <entry key="..\:/Users/Azka Naseer/AndroidStudioProjects/MyApplication8/app/src/main/res/layout/list_group.xml" value="0.20244565217391305" />
+        <entry key="..\:/Users/Azka Naseer/AndroidStudioProjects/MyApplication8/app/src/main/res/layout/list_view.xml" value="0.20244565217391305" />
+        <entry key="..\:/Users/Azka Naseer/AndroidStudioProjects/MyApplication8/app/src/main/res/menu/bottom_nav_menu.xml" value="0.2" />
+        <entry key="..\:/Users/Azka Naseer/AndroidStudioProjects/MyApplication8/app/src/main/res/menu/pop_menu.xml" value="0.259375" />
       </map>
     </option>
   </component>

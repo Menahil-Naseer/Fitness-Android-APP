@@ -81,43 +81,45 @@ public class MainActivity extends AppCompatActivity {
 
                                 try {
                                     if (user != null)
-                                        user.sendEmailVerification()
-                                                .addOnCompleteListener(new OnCompleteListener<Void>() {
-                                                    @Override
-                                                    public void onComplete(@NonNull Task<Void> task) {
-                                                        if (task.isSuccessful()) {
-                                                            AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(
-                                                                    MainActivity.this);
+                                        user.sendEmailVerification().addOnCompleteListener(new OnCompleteListener<Void>() {
+                                            @Override
+                                            public void onComplete(@NonNull Task<Void> task) {
+                                                if (task.isSuccessful()) {
+                                                    Log.d(TAG, "Email sent.");
 
-                                                            // set title
-                                                            alertDialogBuilder.setTitle("Thankyou!");
+                                                    AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(
+                                                            MainActivity.this);
 
-                                                            // set dialog message
-                                                            alertDialogBuilder
-                                                                    .setMessage("Signup Successful!...")
-                                                                    .setCancelable(false)
-                                                                    .setPositiveButton("Sign In", new DialogInterface.OnClickListener() {
-                                                                        public void onClick(DialogInterface dialog, int id) {
+                                                    // set title
+                                                    alertDialogBuilder.setTitle("Please Verify Your EmailID");
 
-                                                                            Intent in = new Intent(MainActivity.this, SignInActivity.class);
-                                                                            startActivity(in);
-                                                                        }
-                                                                    });
+                                                    // set dialog message
+                                                    alertDialogBuilder
+                                                            .setMessage("A verification Email Is Sent To Your Registered EmailID, please click on the link and Sign in again!")
+                                                            .setCancelable(false)
+                                                            .setPositiveButton("Sign In", new DialogInterface.OnClickListener() {
+                                                                public void onClick(DialogInterface dialog, int id) {
 
-                                                            // create alert dialog
-                                                            AlertDialog alertDialog = alertDialogBuilder.create();
+                                                                    Intent signInIntent = new Intent(MainActivity.this, SignInActivity.class);
+                                                                    startActivity(signInIntent);
+                                                                }
+                                                            });
 
-                                                            // show it
-                                                            alertDialog.show();
+                                                    // create alert dialog
+                                                    AlertDialog alertDialog = alertDialogBuilder.create();
+
+                                                    // show it
+                                                    alertDialog.show();
 
 
-                                                        }
-                                                    }
-                                                });
+                                                }
+                                            }
+                                        });
 
-                                } catch (Exception e) {
-                                    errorView.setText(e.getMessage());
-                                }
+
+                                    } catch(Exception e){
+                                        errorView.setText(e.getMessage());
+                                    }
                             } else {
                                 // If sign in fails, display a message to the user.
                                 Log.w(TAG, "createUserWithEmail:failure", task.getException());
@@ -139,6 +141,10 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
+    }
 
+    public void signinn(View view) {
+        Intent in= new Intent(MainActivity.this,SignInActivity.class);
+        startActivity(in);
     }
 }
