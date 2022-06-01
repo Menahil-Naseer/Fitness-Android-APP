@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/bmi"
+        android:title="BMI" />
+
+    <item
+        android:id="@+id/navigation_dashboard"
+        android:icon="@drawable/steps"
+        android:title="Pedometer" />
+
+    <item
+        android:id="@+id/navigation_notifications"
+        android:icon="@drawable/setting"
+        android:title="Settings" />
+
+</menu>
